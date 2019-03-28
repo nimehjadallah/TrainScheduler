@@ -1,8 +1,9 @@
 body{
-    background-image: url("../images/background1.jpg");
+    background-image: url("../images/background2.jpg");
     background-size: cover;
-    /* background-position: left; */
+    background-position: center;
     /* background: grey; */
+    font-family:'Times New Roman', Times, serif
     
 }
 
@@ -11,5 +12,17 @@ body{
     background-size: cover;
     background-position: center;
 } */
+
+
+h1{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+h5{
+    font-style: italic;
+}
 
 
