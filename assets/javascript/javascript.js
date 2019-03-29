@@ -1,3 +1,4 @@
+$(document).ready(function(){
 var config = {
     apiKey: "AIzaSyC4hgM79znkN1q6FtrzQ04v-XWijAT4V08",
     authDomain: "test-c8a67.firebaseapp.com",
@@ -105,3 +106,4 @@ currentTime();
 setInterval(function() {
   window.location.reload();
 }, 60000);
+});
