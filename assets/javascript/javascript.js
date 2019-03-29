@@ -87,7 +87,7 @@ database.ref().on("child_added", function(childSnapshot) {
   newrow.append($("<td class='text-center'>" + minToArrival + "</td>"));
   newrow.append($("<td class='text-center'><button class='arrival btn btn-danger btn-xs' data-key='" + key + "'>X</button></td>"));
 
-  if (minToArrival < 6) {
+  if (minToArrival < 10) {
     newrow.addClass("info");
   }
 
@@ -105,5 +105,5 @@ currentTime();
 
 setInterval(function() {
   window.location.reload();
-}, 60000);
+}, 100000);
 });
