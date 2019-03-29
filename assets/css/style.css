@@ -2,16 +2,9 @@ body{
     background-image: url("../images/background2.jpg");
     background-size: cover;
     background-position: center;
-    /* background: grey; */
     font-family:'Times New Roman', Times, serif
     
 }
-
-/* .jumbotron{
-    background-image: url("../images/background.jpg");
-    background-size: cover;
-    background-position: center;
-} */
 
 
 h1{
